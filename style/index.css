@@ -60,6 +60,12 @@ html {
 	font-size: 62.5%;
 }
 
+body {
+	font-family: 'Teko Medium';
+	font-size: 1.75em;
+	color:#2C2E2E;
+}
+
 h1 {
 	color: black;
 	font-size: 5em;
@@ -80,9 +86,25 @@ header nav {
 	justify-content: space-between;
 }
 
+a {
+	font-size: 2em;
+	font-family: 'Teko';
+	letter-spacing: 2px;
+	color: red;
+	text-decoration: none;
+}
+
 .links {
 	width: 100%;
 	align-items: center;
 	display:flex;
 	justify-content: space-around;
+}
+
+#about {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	border-radius: 15px;
+	background: black;
 }
