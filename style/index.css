@@ -61,10 +61,28 @@ html {
 }
 
 h1 {
-	color: red;
+	color: black;
 	font-size: 5em;
 	display: flex;
 	justify-content:center;
 	margin-top: 2%;
 	margin-bottom: 2%;
+	font-family: 'Oswald';
+	letter-spacing: 5px;
+	word-spacing: 20px;
+}
+
+header nav {
+	width: 100%;
+	align-items: center;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.links {
+	width: 100%;
+	align-items: center;
+	display:flex;
+	justify-content: space-around;
 }
