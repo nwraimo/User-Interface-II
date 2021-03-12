@@ -161,9 +161,28 @@ footer {
 	width:auto;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	border-top: 25px solid white;
 	height: 150px;
 	background: rgb(179, 176, 176);
+	border-top: 20px solid rgb(179, 176, 176);
+	border-bottom: 20px solid rgb(179, 176, 176);
+}
+
+footer a {
+	width: 10%;
+	height: auto;
+	margin: auto 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer img {
+	width: 50%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
 }
 
 button {
