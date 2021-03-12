@@ -148,11 +148,14 @@ header nav .links{
 }
 
 .wip .pics {
-	height: 600px;
+	display: flex;
+	flex: 100%;
+	align-items: stretch;
 	border: 2px solid white;
 }
 
 .wip .text {
+	justify-content: flex-end;
 	border-top: 50px solid white;
 }
 
