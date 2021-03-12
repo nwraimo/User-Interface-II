@@ -142,13 +142,36 @@ header nav .links{
 	display: flex;
 	width: 50%;
 	height: 600px;
+	margin: 2% auto;
 	justify-content: space-evenly;
+	border: 25px solid white;
+}
+
+.wip1 .pic1 {
+	height: 600px;
+	border: 2px solid white;
+}
+
+.wip2 .pic2 {
+	height: 600px;
+	border: 2px solid white;
+}
+
+.wip3 .pic3 {
+	height: 600px;
+	border: 2px solid white;
+}
+
+.wip4 .pic4 {
+	height: 600px;
+	border: 2px solid white;
 }
 
 footer {
 	width:auto;
 	display: flex;
 	justify-content: space-around;
+	border-top: 25px solid white;
 	height: 150px;
 	background: rgb(179, 176, 176);
 }
