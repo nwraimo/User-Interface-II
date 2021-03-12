@@ -147,25 +147,15 @@ header nav .links{
 	border: 25px solid white;
 }
 
-.wip1 .pic1 {
+.wip .pics {
 	height: 600px;
 	border: 2px solid white;
 }
 
-.wip2 .pic2 {
-	height: 600px;
-	border: 2px solid white;
+.wip .text {
+	border-top: 50px solid white;
 }
 
-.wip3 .pic3 {
-	height: 600px;
-	border: 2px solid white;
-}
-
-.wip4 .pic4 {
-	height: 600px;
-	border: 2px solid white;
-}
 
 footer {
 	width:auto;
