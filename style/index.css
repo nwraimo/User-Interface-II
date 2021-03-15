@@ -1,1 +1,253 @@
-/* Add CSS styling here */
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+}
+
+html {
+	font-size: 62.5%;
+	border: 25px solid white;
+}
+
+body {
+	font-family: 'Teko';
+	font-size: 1.75em;
+	color:#2C2E2E;
+}
+
+h1 {
+	color: black;
+	font-size: 5em;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-family: 'Oswald';
+	letter-spacing: 5px;
+	word-spacing: 20px;
+	border: 2px solid black;
+	border-radius: 15px;
+	width:40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5%;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 5em;
+	margin-bottom: 0.5%;
+}
+
+h3 {
+	display: flex;
+	justify-content: center;
+	font-size: 2.1em;
+}
+
+p {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: red;
+	font-family: 'Teko';
+	font-size: 2em;
+	margin: 0 2%;
+	justify-content: center;
+	width: 100%;
+}
+
+header nav .links{
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1%;
+}
+
+
+
+.bigimage {
+	height: 50%;
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.wip {
+	display: flex;
+	width: 50%;
+	height: 600px;
+	margin: 2% auto;
+	justify-content: space-evenly;
+	border: 25px solid white;
+}
+
+.wip .pics {
+	display: flex;
+	flex: 100%;
+	align-items: stretch;
+	border: 2px solid white;
+}
+
+.wip .text {
+	justify-content: flex-end;
+	border-top: 50px solid white;
+}
+
+
+footer {
+	width:auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 25px solid white;
+	height: 150px;
+	background: rgb(179, 176, 176);
+	border-top: 20px solid rgb(179, 176, 176);
+	border-bottom: 20px solid rgb(179, 176, 176);
+}
+
+footer a {
+	width: 10%;
+	height: auto;
+	margin: auto 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer img {
+	width: 50%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+button {
+	width: 10%;
+	height:fit-content;
+	margin: auto 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.5%;
+	font-family: 'Teko';
+	font-size: 1.75em;
+	background: white;
+	border: 2px solid black;
+}
+
+/*Media Queries*/
+/*Tablet*/
+@media(max-width: 800px){
+	h1 {
+		width: 75%;
+	}
+	header nav .links {
+		width: 65%;
+	}
+	p {
+		width: 85%;
+	}
+	.wip {
+		width: 87%;
+	}
+	button {
+		width: 20%;
+	}
+}
+
+/*Phone*/
+@media(max-width: 500px){
+	h1 {
+		width: 75%;
+		font-size: 3em;
+	}
+	header nav .links {
+		width: 100%;
+	}
+	h2 {
+		font-size: 3em;
+	}
+	h3 {
+		width: 100%;
+		font-size: 1.4em;
+	}
+	p {
+		width: 100%;
+	}
+	.bigimage {
+		width: 100%;
+	}
+	.wip {
+		width: 100%;
+	}
+	button {
+		width: 30%;
+	}
+}
