@@ -201,3 +201,14 @@ button {
 	background: white;
 	border: 2px solid black;
 }
+
+/*Media Queries*/
+/*Tablet*/
+@media(max-width: 800px){
+
+}
+
+/*Phone*/
+@media(max-width: 500px){
+
+}
