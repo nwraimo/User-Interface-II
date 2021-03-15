@@ -217,9 +217,37 @@ button {
 	.wip {
 		width: 87%;
 	}
+	button {
+		width: 20%;
+	}
 }
 
 /*Phone*/
 @media(max-width: 500px){
-
+	h1 {
+		width: 75%;
+		font-size: 3em;
+	}
+	header nav .links {
+		width: 100%;
+	}
+	h2 {
+		font-size: 3em;
+	}
+	h3 {
+		width: 100%;
+		font-size: 1.4em;
+	}
+	p {
+		width: 100%;
+	}
+	.bigimage {
+		width: 100%;
+	}
+	.wip {
+		width: 100%;
+	}
+	button {
+		width: 30%;
+	}
 }
