@@ -205,7 +205,18 @@ button {
 /*Media Queries*/
 /*Tablet*/
 @media(max-width: 800px){
-
+	h1 {
+		width: 75%;
+	}
+	header nav .links {
+		width: 65%;
+	}
+	p {
+		width: 85%;
+	}
+	.wip {
+		width: 87%;
+	}
 }
 
 /*Phone*/
